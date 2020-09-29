@@ -1,0 +1,8 @@
+server:
+  port: 9000
+  servlet:
+    contextPath: /api
+spring:
+  data:
+    mongodb:
+      uri: mongodb://agazin:agazin@127.0.0.1:27017/ex-mongo
